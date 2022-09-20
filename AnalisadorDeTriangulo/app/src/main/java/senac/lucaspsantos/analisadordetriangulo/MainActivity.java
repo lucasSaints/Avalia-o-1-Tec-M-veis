@@ -2,9 +2,11 @@ package senac.lucaspsantos.analisadordetriangulo;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.res.Configuration;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -29,6 +31,9 @@ public class MainActivity extends AppCompatActivity {
         ladoC.setOnFocusChangeListener((view, b) -> {
             if(!b) updateResultText();
         });
+
+        /*if(getResources().getConfiguration().uiMode == Configuration.UI_MODE_NIGHT_YES)
+            ((ImageView) findViewById(R.id.triangleImg)).setImageDrawable(getResources().getDrawable(R.drawable.ic_launcher_foreground));*/
     }
 
     private void updateResultText() {

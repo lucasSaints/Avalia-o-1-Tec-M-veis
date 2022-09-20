@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/AnalisadorDeTriangulo.iml" filepath="$PROJECT_DIR$/.idea/modules/AnalisadorDeTriangulo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AnalisadorDeTriangulo.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AnalisadorDeTriangulo.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AnalisadorDeTriangulo.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AnalisadorDeTriangulo.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AnalisadorDeTriangulo.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AnalisadorDeTriangulo.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AnalisadorDeTriangulo.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AnalisadorDeTriangulo.app.unitTest.iml" />
     </modules>
   </component>
 </project>
