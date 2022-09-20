@@ -17,9 +17,9 @@ public class ResultActivity extends AppCompatActivity {
 
         String aux = getIntent().getExtras().getString(MainActivity.EXTRAKEY);
         double value = aux.isEmpty() ? 0 : Double.parseDouble(aux);
-        dolar.setText(String.valueOf(value*MainActivity.DOLLAR));
-        euro.setText(String.valueOf(value*MainActivity.EURO));
-        libra.setText(String.valueOf(value*MainActivity.STERLING));
+        dolar.setText(String.valueOf((double)Math.round(value*MainActivity.DOLLAR*10000d)/10000d));
+        euro.setText(String.valueOf((double)Math.round(value*MainActivity.EURO*10000d)/10000d));
+        libra.setText(String.valueOf((double)Math.round(value*MainActivity.STERLING*10000d)/10000d));
 
         findViewById(R.id.backbutton).setOnClickListener(view -> finish());
     }
